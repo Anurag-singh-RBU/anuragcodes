@@ -120,7 +120,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                <h2 className="text-3xl font-bold font-JB tracking-tighter sm:text-5xl">
                   Check out my work
                 </h2>
                 <p className="text-muted-foreground text-sm text-justify sm:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -163,7 +163,7 @@ export default function Page() {
                 <div className="inline-block rounded-lg mb-3 bg-foreground text-background px-3 py-1 text-sm">
                   Hackathons
                 </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                <h2 className="text-3xl font-JB font-bold tracking-tighter sm:text-5xl">
                   I like Hackathons
                 </h2>
                 <p className="text-muted-foreground text-justify md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -200,7 +200,7 @@ export default function Page() {
               <div className="inline-block rounded-lg font-JB bg-foreground text-background px-3 py-1 text-sm">
                 Contact
               </div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+              <h2 className="text-3xl font-JB font-bold tracking-tighter sm:text-5xl">
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
