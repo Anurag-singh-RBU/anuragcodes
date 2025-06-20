@@ -120,10 +120,10 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4">
               <div className="space-y-2">
-                <h2 className="text-3xl font-JB font-bold tracking-tighter sm:text-5xl">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Check out my work
                 </h2>
-                <p className="text-muted-foreground font-JB text-sm text-justify sm:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                <p className="text-muted-foreground text-sm text-justify sm:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve worked on a variety of projects from simple
                   websites to complex web applications. Here are a few of my
                   favorites.
@@ -163,7 +163,7 @@ export default function Page() {
                 <div className="inline-block rounded-lg mb-3 bg-foreground text-background px-3 py-1 text-sm">
                   Hackathons
                 </div>
-                <h2 className="text-3xl font-bold font-JB tracking-tighter sm:text-5xl">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   I like Hackathons
                 </h2>
                 <p className="text-muted-foreground text-justify md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -175,7 +175,7 @@ export default function Page() {
           <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
             {DATA.hackathons.map((project, id) => (
               <BlurFade
-                className="font-JB text-justify"
+                className="text-justify"
                 delay={BLUR_FADE_DELAY * 15 + id * 0.05}
                 key={project.title + project.dates}>
                 <HackathonCard
