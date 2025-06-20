@@ -42,7 +42,7 @@ export default function Page() {
           <h2 className="text-xl font-bold font-JB">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <div className="prose max-w-full mt-2 text-justify font-sans sm:text-sm text-xs text-muted-foreground dark:prose-invert">
+          <div className="prose max-w-full mt-2 text-justify font-sans sm:text-sm text-sm text-muted-foreground dark:prose-invert">
             <Markdown>
               {DATA.summary}
             </Markdown>
@@ -160,14 +160,14 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg mb-3 font-JB bg-foreground text-background px-3 py-1 text-sm">
+                <div className="inline-block rounded-lg mb-3 bg-foreground text-background px-3 py-1 text-sm">
                   Hackathons
                 </div>
                 <h2 className="text-3xl font-bold font-JB tracking-tighter sm:text-5xl">
-                  I like Competition
+                  I like Hackathons
                 </h2>
-                <p className="text-muted-foreground text-justify md:text-xl/relaxed font-JB lg:text-base/relaxed xl:text-xl/relaxed">
-                I enjoy participating in hackathons because they help me learn new skills and apply fresh ideas while building real world projects
+                <p className="text-muted-foreground text-justify md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  I enjoy participating in hackathons because they help me learn new skills and apply fresh ideas while building real world projects
                 </p>
               </div>
             </div>
@@ -177,8 +177,7 @@ export default function Page() {
               <BlurFade
                 className="font-JB text-justify"
                 delay={BLUR_FADE_DELAY * 15 + id * 0.05}
-                key={project.title + project.dates}
-              >
+                key={project.title + project.dates}>
                 <HackathonCard
                   title={project.title}
                   description={project.description}
@@ -195,10 +194,10 @@ export default function Page() {
 
       {/* Contact */}
       <section id="contact">
-        <div className="grid items-center justify-center font-JB text-justify gap-4 px-4 md:px-6 w-full py-6">
+        <div className="grid items-center justify-center text-justify gap-4 px-4 md:px-6 w-full py-6">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+              <div className="inline-block rounded-lg font-JB bg-foreground text-background px-3 py-1 text-sm">
                 Contact
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
