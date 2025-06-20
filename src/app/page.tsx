@@ -22,12 +22,12 @@ export default function Page() {
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
-                className="text-5xl sm:font-extrabold font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+                className="text-5xl sm:font-extrabold font-bold font-JB sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
                 text={`I'm Anurag`}
               />
               <BlurFadeText
-                className="max-w-[600px] mt-3 text-md text-justify font-bold sm:text-xl"
+                className="max-w-[600px] mt-3 font-JB text-md text-justify font-bold sm:text-xl"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
