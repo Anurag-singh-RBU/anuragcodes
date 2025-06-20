@@ -134,7 +134,6 @@ export default function Page() {
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] pr-2 text-justify mx-auto">
             {DATA.projects.map((project, id) => (
               <BlurFade
-              className="font-JB"
                 delay={BLUR_FADE_DELAY * 12 + id * 0.05}
                 key={project.title}
               >
