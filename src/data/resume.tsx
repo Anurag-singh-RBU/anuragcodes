@@ -50,21 +50,21 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Anurag-singh-RBU",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/anuragsinghrbu/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/anuragRBU",
         icon: Icons.x,
 
         navbar: true,
@@ -190,7 +190,7 @@ export const DATA = {
   projects: [
     {
       title: "Chat Collect",
-      href: "https://chatcollect.com",
+      href: "https://github.com/Anurag-singh-RBU",
       dates: "May 2025 - June 2025",
       active: true,
       description:
@@ -218,7 +218,7 @@ export const DATA = {
     },
     {
       title: "Shadyx UI",
-      href: "https://magicui.design",
+      href: "https://github.com/Anurag-singh-RBU/SHADYX-UI",
       dates: "May 2025 - Present",
       active: true,
       description:
@@ -233,14 +233,14 @@ export const DATA = {
         "Figma",
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://magicui.design",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/Anurag-singh-RBU/SHADYX-UI",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -249,7 +249,7 @@ export const DATA = {
     },
     {
       title: "CricVortex",
-      href: "https://llm.report",
+      href: "https://cricvortex.netlify.app/??",
       dates: "Jan 2025 - March 2025",
       active: true,
       description:
@@ -264,12 +264,12 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://cricvortex.netlify.app/??",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/Anurag-singh-RBU/CrickVortex",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -278,7 +278,7 @@ export const DATA = {
     },
     {
       title: "Scrivo",
-      href: "https://automatic.chat",
+      href: "https://github.com/Anurag-singh-RBU",
       dates: "May 2025 - Present",
       active: true,
       description:
@@ -297,7 +297,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/Anurag-singh-RBU",
           icon: <Icons.github className="size-3" />,
         },
       ],
