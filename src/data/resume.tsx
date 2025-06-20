@@ -42,7 +42,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://shadyxui.vercel.app/", icon: NotebookIcon, label: "Shadyx Ui" },
+    { href: "https://github.com/Anurag-singh-RBU/SHADYX-UI", icon: NotebookIcon, label: "Shadyx Ui" },
   ],
   contact: {
     email: "anuragsingh260805@gmail.com",
