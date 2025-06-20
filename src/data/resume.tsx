@@ -42,7 +42,8 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "https://github.com/Anurag-singh-RBU/SHADYX-UI", icon: NotebookIcon, label: "Shadyx Ui" },
+    { href: "/resume.pdf", icon: NotebookIcon, label: "Resume", download: true },
+
   ],
   contact: {
     email: "anuragsingh260805@gmail.com",
@@ -68,6 +69,13 @@ export const DATA = {
         icon: Icons.x,
 
         navbar: true,
+      },
+      youtube: {
+        name: "Leetcode",
+        url: "#",
+        icon: Icons.youtube,
+
+        navbar: false,
       },
       email: {
         name: "Send Email",
