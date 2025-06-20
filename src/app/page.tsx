@@ -19,7 +19,7 @@ export default function Page() {
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
-            <div className="flex-col flex flex-1 font-JB space-y-1.5">
+            <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
                 className="text-5xl sm:font-extrabold font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
@@ -39,7 +39,7 @@ export default function Page() {
       {/* About */}
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-xl font-bold font-JB">About</h2>
+          <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <div className="prose max-w-full mt-2 text-justify font-sans sm:text-sm text-sm text-muted-foreground dark:prose-invert">
@@ -54,7 +54,7 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col text-justify gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold mb-3 font-JB">Work Experience</h2>
+            <h2 className="text-xl font-bold mb-3">Work Experience</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade
@@ -78,7 +78,7 @@ export default function Page() {
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
-            <h2 className="text-xl font-JB mb-3 font-bold">Education</h2>
+            <h2 className="text-xl mb-3 font-bold">Education</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
@@ -101,7 +101,7 @@ export default function Page() {
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold text-center font-JB mt-3">Skills</h2>
+            <h2 className="text-xl font-bold text-center mt-3">Skills</h2>
           </BlurFade>
           <div className="flex flex-wrap justify-center gap-2">
   {DATA.skills.map((skill, id) => (
@@ -120,7 +120,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold font-JB tracking-tighter sm:text-5xl">
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Check out my work
                 </h2>
                 <p className="text-muted-foreground text-sm text-justify sm:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
