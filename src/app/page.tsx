@@ -15,7 +15,6 @@ const BLUR_FADE_DELAY = 0.04;
 export default function Page() {
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
-      {/* Hero */}
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -24,19 +23,16 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 className="text-5xl sm:font-extrabold font-bold font-JB sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`I'm Anurag`}
-              />
+                text={`I'm Anurag`}/>
               <BlurFadeText
                 className="max-w-[600px] mt-3 font-JB text-md text-justify font-bold sm:text-xl"
                 delay={BLUR_FADE_DELAY}
-                text={DATA.description}
-              />
+                text={DATA.description}/>
             </div>
           </div>
         </div>
       </section>
 
-      {/* About */}
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
           <h2 className="text-xl font-bold">About</h2>
@@ -104,12 +100,12 @@ export default function Page() {
             <h2 className="text-xl font-bold text-center mt-3">Skills</h2>
           </BlurFade>
           <div className="flex flex-wrap justify-center gap-2">
-  {DATA.skills.map((skill, id) => (
-    <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-      <Badge>{skill}</Badge>
-    </BlurFade>
-  ))}
-</div>
+            {DATA.skills.map((skill, id) => (
+              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                <Badge>{skill}</Badge>
+              </BlurFade>
+            ))}
+          </div>
 
         </div>
       </section>
@@ -206,8 +202,7 @@ export default function Page() {
                 Want to chat ? Just shoot me a DM{" "}
                 <Link
                   href={DATA.contact.social.X.url}
-                  className="text-blue-500 hover:underline"
-                >
+                  className="text-blue-500 hover:underline">
                   on Twitter
                 </Link>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all

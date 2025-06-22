@@ -42,7 +42,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    { href: "/resume.pdf", icon: NotebookIcon, label: "Resume", download: true },
+    { href: "https://www.shadyxui.in", icon: NotebookIcon, label: "Shadyx Ui", download: false },
 
   ],
   contact: {
