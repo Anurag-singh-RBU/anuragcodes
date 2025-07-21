@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist+Sans:wght@100..900&display=swap');
+
+.GS {
+  font-family: "Geist Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500; /* 100 से 900 तक कोई भी weight दे सकते हो */
+  font-style: normal;
+}
+
 
 .font-JB {
     font-family: 'JetBrains Mono', monospace;

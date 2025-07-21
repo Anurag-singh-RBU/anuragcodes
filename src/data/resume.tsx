@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Building ShadYx UI and other SaaS Products where design meets code with style.",
   summary:
-    "I am a Code-savvy Software and Java developer with experience in TypeScript and JavaScript alongwith modern technologies like Tailwind Css, ShadCn UI and Docker. I have expertise in frameworks like React Js, Nodejs and Next Js. I leverage AWS Services to create efficient and reliable solutions. MongoDB and PostgreSQL for database management, Clerk and Zustand for effective authentication and state management. I don't just write code — I architect digital spells in Java. Your ideas and my code — a perfect fusion for impactful creations !",
+    "I am a Code-savvy Software and Java developer with experience in TypeScript and JavaScript alongwith modern technologies like Tailwind Css, ShadCn UI and Docker. I have expertise in frameworks like React Js, Node Js and Next Js. I leverage AWS Services to create efficient and reliable solutions. MongoDB and PostgreSQL for database management, Clerk and Zustand for effective authentication and state management. I don't just write code — I architect digital spells in Java. Your ideas and my code — a perfect fusion for impactful creations !",
   avatarUrl: "/me.png",
   skills: [
     "React",

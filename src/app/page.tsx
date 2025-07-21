@@ -25,7 +25,7 @@ export default function Page() {
                 yOffset={8}
                 text={`I'm Anurag`}/>
               <BlurFadeText
-                className="max-w-[600px] mt-3 font-JB text-md text-justify font-bold sm:text-xl"
+                className="max-w-[600px] mt-3 GS text-md text-justify font-bold sm:text-xl"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}/>
             </div>
