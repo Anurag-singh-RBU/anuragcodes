@@ -9,6 +9,16 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { Bungee } from "next/font/google";
+import { Concert_One } from 'next/font/google';
+
+const concertOne = Concert_One({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+});
+
+const bungee = Bungee({ subsets: ["latin"], weight: "400" });
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -21,11 +31,12 @@ export default function Page() {
             <div className="flex-col flex flex-1 space-y-1.5">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
-                className="text-5xl sm:font-extrabold font-bold font-JB sm:text-5xl xl:text-6xl/none"
+                className={`text-5xl sm:font-extrabold font-bold text-transparent 
+                bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-orange-400 ${concertOne.className} sm:text-4xl xl:text-6xl leading-[1.3]`}
                 yOffset={8}
-                text={`I'm Anurag`}/>
+                text={`I'M ANURAG`}/>
               <BlurFadeText
-                className="max-w-[600px] mt-3 font-mono text-md text-justify font-bold sm:text-xl"
+                className={`max-w-[600px] sm:mt-3 mt-1 ${concertOne.className} text-lg text-justify font-bold sm:text-2xl`}
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}/>
             </div>
@@ -35,7 +46,7 @@ export default function Page() {
 
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-xl font-bold">About</h2>
+          <h2 className={`text-xl font-bold ${bungee.className}`}>About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <div className="prose max-w-full mt-2 text-justify font-sans sm:text-sm text-sm text-muted-foreground dark:prose-invert">
@@ -50,7 +61,7 @@ export default function Page() {
       <section id="work">
         <div className="flex min-h-0 flex-col text-justify gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
-            <h2 className="text-xl font-bold mb-3">Work Experience</h2>
+            <h2 className={`text-xl font-bold ${bungee.className}`}>Work Experience</h2>
           </BlurFade>
           {DATA.work.map((work, id) => (
             <BlurFade
@@ -74,7 +85,7 @@ export default function Page() {
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
-            <h2 className="text-xl mb-3 font-bold">Education</h2>
+            <h2 className={`text-xl font-bold ${bungee.className}`}>Education</h2>
           </BlurFade>
           {DATA.education.map((education, id) => (
             <BlurFade
@@ -97,7 +108,7 @@ export default function Page() {
       <section id="skills">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <h2 className="text-xl font-bold text-center mt-3">Skills</h2>
+            <h2 className={`text-xl font-bold text-center mt-3 ${bungee.className}`}>Skills</h2>
           </BlurFade>
           <div className="flex flex-wrap justify-center gap-2">
             {DATA.skills.map((skill, id) => (
