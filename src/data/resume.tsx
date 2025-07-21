@@ -197,11 +197,13 @@ export const DATA = {
         "Figma",
       ],
       links: [
-        // {
-        //   type: "Website",
-        //   href: "",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
+        {
+
+          type: "Website",
+          href: "https://www.shadyxui.in/",
+          icon: <Icons.globe className="size-3" />,
+
+        },
         {
           type: "Source",
           href: "https://github.com/Anurag-singh-RBU/SHADYX-UI",
